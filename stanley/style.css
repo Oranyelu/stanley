@@ -1,0 +1,73 @@
+body {
+  background-image: radial-gradient(rgb(0, 1, 73), rgb(0, 0, 0));
+  margin: 0;
+  padding: 0;
+  padding-top: 200px;
+  border: 0;
+  color: aliceblue;
+  min-height: 100vh;
+  min-width: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.profileimage {
+  width: 200px;
+  border-radius: 100px;
+  border-width: 10px;
+  border-color: rgb(15, 78, 161);
+}
+.quote {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;padding-bottom: 50px;
+}
+button {
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  border-width: 0px;
+  align-items: center;
+  padding: auto;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+button :active {
+  background-color: rgb(14, 15, 15);
+  color: rgb(185, 222, 240);
+}
+.footer {
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+  background-color: black;
+  
+}
+.foot {
+  color: rgb(4, 108, 236);
+  image-rendering: crisp-edges;
+}
+p {
+  padding: 0;
+}
